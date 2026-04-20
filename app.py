@@ -551,13 +551,11 @@ def show_resume_analysis():
                     for s in extract_skills(resume_text)
                 ]
 
-                st.write("JOB DESCRIPTION TEXT:", job_description)
                 jd_skills = [
                     s.strip().lower()
                     for s in extract_skills(job_description)
                 ]
 
-                st.write("RAW JD SKILLS:", extract_skills(job_description))
 
                 matched_skills = list(
                     set(resume_skills).intersection(set(jd_skills))
