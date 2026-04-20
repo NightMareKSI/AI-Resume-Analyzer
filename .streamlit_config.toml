@@ -1,0 +1,23 @@
+[theme]
+primaryColor = "#6366f1"
+backgroundColor = "#020617"
+secondaryBackgroundColor = "#0f172a"
+textColor = "#ffffff"
+font = "sans serif"
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+showSidebarNavigation = true
+
+[logger]
+level = "info"
+
+[server]
+port = 8501
+address = "localhost"
+maxUploadSize = 200  # MB
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

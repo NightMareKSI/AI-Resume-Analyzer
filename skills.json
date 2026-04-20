@@ -1,0 +1,996 @@
+{
+  "aws": {
+    "description": "Machine Learning",
+    "category": "Web Development",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "gcp": {
+    "description": "DevOps",
+    "category": "Programming Language",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "sqlite": {
+    "description": "Testing",
+    "category": "Embedded Systems",
+    "demand_level": "Low",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "opencv": {
+    "description": "Database",
+    "category": "Database",
+    "demand_level": "High",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "fastapi": {
+    "description": "Web Development",
+    "category": "Testing",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "gitlab": {
+    "description": "AI",
+    "category": "DevOps",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+  "kotlin": {
+    "description": "DevOps",
+    "category": "DevOps",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "tensorflow": {
+    "description": "Machine Learning",
+    "category": "Automation",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "objective-c": {
+    "description": "Big Data",
+    "category": "Framework",
+    "demand_level": "Low",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "solidity": {
+    "description": "Automation",
+    "category": "Game Development",
+    "demand_level": "Low",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "websockets": {
+    "description": "Automation",
+    "category": "UI/UX",
+    "demand_level": "Low",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "cassandra": {
+    "description": "Programming Language",
+    "category": "Automation",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "scala": {
+    "description": "Blockchain",
+    "category": "Operating System",
+    "demand_level": "High",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "nosql": {
+    "description": "Testing",
+    "category": "Database",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "oracle": {
+    "description": "Machine Learning",
+    "category": "Blockchain",
+    "demand_level": "Medium",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "nodejs": {
+    "description": "Machine Learning",
+    "category": "Networking",
+    "demand_level": "Medium",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "perl": {
+    "description": "Framework",
+    "category": "Operating System",
+    "demand_level": "High",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+  "apache": {
+    "description": "Database",
+    "category": "Database",
+    "demand_level": "Low",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "pandas": {
+    "description": "DevOps",
+    "category": "Operating System",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "firebase": {
+    "description": "UI/UX",
+    "category": "Testing",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "ansible": {
+    "description": "Web Development",
+    "category": "Testing",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "spark": {
+    "description": "AI",
+    "category": "Automation",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "oauth": {
+    "description": "Cybersecurity",
+    "category": "Operating System",
+    "demand_level": "Low",
+    "learning_time": "4 month",
+    "priority": "Optional"
+  },
+  "java": {
+    "description": "AI",
+    "category": "Big Data",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "flask": {
+    "description": "Data Science",
+    "category": "Data Science",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Optional"
+  },
+  "kubernetes": {
+    "description": "Container Orchestration",
+    "category": "DevOps",
+    "demand_level": "High",
+    "learning_time": "2 months",
+    "priority": "Important"
+  },
+  "blockchain": {
+    "description": "DevOps",
+    "category": "Programming Language",
+    "demand_level": "Medium",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "csharp": {
+    "description": "Cloud",
+    "category": "Database",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "matlab": {
+    "description": "Embedded Systems",
+    "category": "Cloud",
+    "demand_level": "High",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "android": {
+    "description": "UI/UX",
+    "category": "Big Data",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "express": {
+    "description": "Database",
+    "category": "Game Development",
+    "demand_level": "High",
+    "learning_time": "4 month",
+    "priority": "Optional"
+  },
+  "windows": {
+    "description": "UI/UX",
+    "category": "Blockchain",
+    "demand_level": "Medium",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "python": {
+    "description": "AI",
+    "category": "Game Development",
+    "demand_level": "Medium",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "vue": {
+    "description": "Mobile Development",
+    "category": "Testing",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "keras": {
+    "description": "Framework",
+    "category": "Networking",
+    "demand_level": "Low",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "git": {
+    "description": "Big Data",
+    "category": "AI",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "ruby": {
+    "description": "Machine Learning",
+    "category": "Mobile Development",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "godot": {
+    "description": "Testing",
+    "category": "Cybersecurity",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "swift": {
+    "description": "DevOps",
+    "category": "Database",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "ethereum": {
+    "description": "Database",
+    "category": "Blockchain",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "redis": {
+    "description": "Data Science",
+    "category": "Web Development",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "spring": {
+    "description": "DevOps",
+    "category": "Mobile Development",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "ios": {
+    "description": "DevOps",
+    "category": "Game Development",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "pytest": {
+    "description": "Cybersecurity",
+    "category": "Automation",
+    "demand_level": "Medium",
+    "learning_time": "2 month",
+    "priority": "Optional"
+  },
+  "postgresql": {
+    "description": "UI/UX",
+    "category": "Mobile Development",
+    "demand_level": "High",
+    "learning_time": "4 month",
+    "priority": "Optional"
+  },
+  "angular": {
+    "description": "Data Science",
+    "category": "UI/UX",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "unity": {
+    "description": "Database",
+    "category": "Cybersecurity",
+    "demand_level": "Medium",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "soap": {
+    "description": "Blockchain",
+    "category": "UI/UX",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "react": {
+    "description": "Cybersecurity",
+    "category": "Programming Language",
+    "demand_level": "Medium",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "hyperledger": {
+    "description": "Cloud",
+    "category": "DevOps",
+    "demand_level": "Medium",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "embedded-c": {
+    "description": "UI/UX",
+    "category": "Game Development",
+    "demand_level": "Low",
+    "learning_time": "2 month",
+    "priority": "Optional"
+  },
+  "javascript": {
+    "description": "AI",
+    "category": "Cloud",
+    "demand_level": "Low",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "django": {
+    "description": "Networking",
+    "category": "Testing",
+    "demand_level": "High",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "c++": {
+    "description": "DevOps",
+    "category": "Embedded Systems",
+    "demand_level": "Medium",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "mongodb": {
+    "description": "Automation",
+    "category": "Embedded Systems",
+    "demand_level": "High",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "powerbi": {
+    "description": "Blockchain",
+    "category": "Game Development",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+  "elixir": {
+    "description": "Data Science",
+    "category": "Database",
+    "demand_level": "High",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "hadoop": {
+    "description": "Machine Learning",
+    "category": "DevOps",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "postman": {
+    "description": "DevOps",
+    "category": "AI",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "rust": {
+    "description": "Operating System",
+    "category": "Automation",
+    "demand_level": "Medium",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "github": {
+    "description": "Web Development",
+    "category": "Programming Language",
+    "demand_level": "High",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "unreal": {
+    "description": "Data Science",
+    "category": "Embedded Systems",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Optional"
+  },
+  "c": {
+    "description": "Blockchain",
+    "category": "Blockchain",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "linux": {
+    "description": "DevOps",
+    "category": "Programming Language",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "azure": {
+    "description": "Big Data",
+    "category": "Embedded Systems",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "tableau": {
+    "description": "Framework",
+    "category": "Blockchain",
+    "demand_level": "Low",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "kafka": {
+    "description": "Machine Learning",
+    "category": "Testing",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "php": {
+    "description": "Big Data",
+    "category": "Machine Learning",
+    "demand_level": "High",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+  "rest": {
+    "description": "Machine Learning",
+    "category": "DevOps",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "selenium": {
+    "description": "Automation",
+    "category": "Programming Language",
+    "demand_level": "Low",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "dart": {
+    "description": "Cloud",
+    "category": "Cloud",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "docker": {
+    "description": "Cloud",
+    "category": "Cloud",
+    "demand_level": "High",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "nginx": {
+    "description": "UI/UX",
+    "category": "Machine Learning",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "raspberry-pi": {
+    "description": "Mobile Development",
+    "category": "Cloud",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Optional"
+  },
+  "airflow": {
+    "description": "DevOps",
+    "category": "DevOps",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "looker": {
+    "description": "Embedded Systems",
+    "category": "Testing",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "go": {
+    "description": "Web Development",
+    "category": "Big Data",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "mysql": {
+    "description": "Embedded Systems",
+    "category": "Cybersecurity",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "scikit-learn": {
+    "description": "Cloud",
+    "category": "Database",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Important"
+  },
+  "bitbucket": {
+    "description": "AI",
+    "category": "Mobile Development",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "terraform": {
+    "description": "Cloud",
+    "category": "Data Science",
+    "demand_level": "High",
+    "learning_time": "4 month",
+    "priority": "Important"
+  },
+  "junit": {
+    "description": "Database",
+    "category": "Framework",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "macos": {
+    "description": "Big Data",
+    "category": "UI/UX",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "cypress": {
+    "description": "Blockchain",
+    "category": "Programming Language",
+    "demand_level": "High",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "numpy": {
+    "description": "Game Development",
+    "category": "AI",
+    "demand_level": "Medium",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "graphql": {
+    "description": "Testing",
+    "category": "Mobile Development",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "jwt": {
+    "description": "DevOps",
+    "category": "Embedded Systems",
+    "demand_level": "Low",
+    "learning_time": "1 month",
+    "priority": "Optional"
+  },
+  "pytorch": {
+    "description": "Cybersecurity",
+    "category": "Cybersecurity",
+    "demand_level": "Low",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "sql": {
+    "description": "Automation",
+    "category": "Embedded Systems",
+    "demand_level": "High",
+    "learning_time": "5 month",
+    "priority": "Optional"
+  },
+  "haskell": {
+    "description": "Big Data",
+    "category": "DevOps",
+    "demand_level": "Medium",
+    "learning_time": "2 month",
+    "priority": "Important"
+  },
+  "typescript": {
+    "description": "Data Science",
+    "category": "Data Science",
+    "demand_level": "Low",
+    "learning_time": "3 month",
+    "priority": "Important"
+  },
+  "jenkins": {
+    "description": "Programming Language",
+    "category": "Embedded Systems",
+    "demand_level": "High",
+    "learning_time": "3 month",
+    "priority": "Optional"
+  },
+  "arduino": {
+    "description": "Testing",
+    "category": "Framework",
+    "demand_level": "Medium",
+    "learning_time": "6 month",
+    "priority": "Important"
+  },
+  "microservices": {
+    "description": "Architecture",
+    "category": "Backend",
+    "demand_level": "High",
+    "learning_time": "2 months",
+    "priority": "Important"
+  },
+
+  "ci/cd": {
+    "description": "Automation",
+    "category": "DevOps",
+    "demand_level": "High",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+
+  "unit testing": {
+    "description": "Testing",
+    "category": "Quality Assurance",
+    "demand_level": "High",
+    "learning_time": "1 month",
+    "priority": "Important"
+  },
+
+  "system design": {
+    "description": "Architecture",
+    "category": "Backend",
+    "demand_level": "High",
+    "learning_time": "2 months",
+    "priority": "Important"
+  },
+  
+"fastapi-rest": {
+  "description": "REST API Development",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"redis-cache": {
+  "description": "Caching System",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"celery": {
+  "description": "Task Queue System",
+  "category": "Backend",
+  "demand_level": "Medium",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"rabbitmq": {
+  "description": "Message Broker",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"kafka-streams": {
+  "description": "Streaming Platform",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"elasticsearch": {
+  "description": "Search Engine",
+  "category": "Database",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"logstash": {
+  "description": "Log Processing",
+  "category": "DevOps",
+  "demand_level": "Medium",
+  "learning_time": "3 weeks",
+  "priority": "Optional"
+},
+
+"kibana": {
+  "description": "Data Visualization",
+  "category": "DevOps",
+  "demand_level": "Medium",
+  "learning_time": "3 weeks",
+  "priority": "Optional"
+},
+
+"prometheus": {
+  "description": "Monitoring System",
+  "category": "DevOps",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"grafana": {
+  "description": "Monitoring Dashboard",
+  "category": "DevOps",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"helm": {
+  "description": "Kubernetes Package Manager",
+  "category": "DevOps",
+  "demand_level": "Medium",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"docker-compose": {
+  "description": "Container Orchestration",
+  "category": "DevOps",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"aws-lambda": {
+  "description": "Serverless Computing",
+  "category": "Cloud",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"aws-s3": {
+  "description": "Cloud Storage",
+  "category": "Cloud",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"aws-ec2": {
+  "description": "Virtual Servers",
+  "category": "Cloud",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"azure-devops": {
+  "description": "CI/CD Platform",
+  "category": "DevOps",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"serverless": {
+  "description": "Serverless Architecture",
+  "category": "Cloud",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"grpc": {
+  "description": "Remote Procedure Call Framework",
+  "category": "Backend",
+  "demand_level": "Medium",
+  "learning_time": "3 weeks",
+  "priority": "Optional"
+},
+
+"webhooks": {
+  "description": "Event-driven Integration",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"swagger": {
+  "description": "API Documentation",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "1 week",
+  "priority": "Important"
+},
+
+"openapi": {
+  "description": "API Specification",
+  "category": "Backend",
+  "demand_level": "High",
+  "learning_time": "1 week",
+  "priority": "Important"
+},
+
+"pytest-mock": {
+  "description": "Testing Framework",
+  "category": "Testing",
+  "demand_level": "Medium",
+  "learning_time": "2 weeks",
+  "priority": "Optional"
+},
+
+"mockito": {
+  "description": "Java Testing Library",
+  "category": "Testing",
+  "demand_level": "Medium",
+  "learning_time": "2 weeks",
+  "priority": "Optional"
+},
+
+"load testing": {
+  "description": "Performance Testing",
+  "category": "Testing",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"performance testing": {
+  "description": "System Performance Testing",
+  "category": "Testing",
+  "demand_level": "High",
+  "learning_time": "2 weeks",
+  "priority": "Important"
+},
+
+"data pipelines": {
+  "description": "Data Processing Workflow",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"etl": {
+  "description": "Extract Transform Load",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"data warehouse": {
+  "description": "Data Storage System",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"snowflake": {
+  "description": "Cloud Data Warehouse",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"airbyte": {
+  "description": "Data Integration Tool",
+  "category": "Data Engineering",
+  "demand_level": "Medium",
+  "learning_time": "3 weeks",
+  "priority": "Optional"
+},
+
+"dbt": {
+  "description": "Data Transformation Tool",
+  "category": "Data Engineering",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"feature engineering": {
+  "description": "Machine Learning Data Preparation",
+  "category": "AI",
+  "demand_level": "High",
+  "learning_time": "3 weeks",
+  "priority": "Important"
+},
+
+"model deployment": {
+  "description": "Machine Learning Model Deployment",
+  "category": "AI",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"mlops": {
+  "description": "Machine Learning Operations",
+  "category": "AI",
+  "demand_level": "High",
+  "learning_time": "1 month",
+  "priority": "Important"
+},
+
+"computer vision": {
+  "description": "Image Processing",
+  "category": "AI",
+  "demand_level": "High",
+  "learning_time": "2 months",
+  "priority": "Important"
+},
+
+"nlp": {
+  "description": "Natural Language Processing",
+  "category": "AI",
+  "demand_level": "High",
+  "learning_time": "2 months",
+  "priority": "Important"
+},
+
+"llm": {
+  "description": "Large Language Models",
+  "category": "AI",
+  "demand_level": "Very High",
+  "learning_time": "2 months",
+  "priority": "Critical"
+},
+
+"prompt engineering": {
+  "description": "AI Prompt Design",
+  "category": "AI",
+  "demand_level": "Very High",
+  "learning_time": "2 weeks",
+  "priority": "Critical"
+},
+
+"rag": {
+  "description": "Retrieval Augmented Generation",
+  "category": "AI",
+  "demand_level": "Very High",
+  "learning_time": "3 weeks",
+  "priority": "Critical"
+}
+}
