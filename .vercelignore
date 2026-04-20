@@ -13,3 +13,4 @@ data/
 *.pt
 *.bin
 *.onnx
+*.db
