@@ -16,4 +16,7 @@ def handler(request):
         "true"
     ])
 
-    return "Streamlit app running"
+    return {
+        "statusCode": 200,
+        "body": "Streamlit app starting..."
+    }
