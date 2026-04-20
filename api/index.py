@@ -1,22 +1,26 @@
+from http.server import BaseHTTPRequestHandler
 import subprocess
 import os
+import sys
 
-def handler(request):
-    port = os.environ.get("PORT", "8000")
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        port = os.environ.get("PORT", "8501")
 
-    subprocess.Popen([
-        "streamlit",
-        "run",
-        "app.py",
-        "--server.port",
-        port,
-        "--server.address",
-        "0.0.0.0",
-        "--server.headless",
-        "true"
-    ])
+        subprocess.Popen([
+            sys.executable,
+            "-m",
+            "streamlit",
+            "run",
+            "app.py",
+            "--server.port",
+            port,
+            "--server.address",
+            "0.0.0.0",
+            "--server.headless",
+            "true"
+        ])
 
-    return {
-        "statusCode": 200,
-        "body": "Streamlit app starting..."
-    }
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Streamlit app starting...")
