@@ -506,10 +506,6 @@ def show_dashboard():
 def show_resume_analysis():
     """Display resume analysis interface"""
     
-    st.write("TOTAL SKILLS IN DATABASE:", len(get_all_skills()))
-    
-    st.write("FIRST 20 SKILLS:", get_all_skills()[:20])
-
     st.subheader("🔍 Resume Analysis")
     job_role = st.selectbox(
         "Select Target Job Role",
